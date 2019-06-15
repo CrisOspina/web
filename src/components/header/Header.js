@@ -7,34 +7,40 @@ const Header = (props) => {
   return ( 
     <React.Fragment>
       {/* home */}
-      <div className="row">
-        <div className="col-12">
+      <div className="row-fluid">
+        <div className="col-cont col-12">
           <header>
-            <a classNameName="titulo titulo-a" href="#">{titulo}</a>
+            <a className="titulo titulo-a" href="#">{titulo}</a>
           </header>
         </div>
       </div>
+    
 
       {/* Navegación */}
-      <div classNameName="container-fluid">
-        <div className="row">
-          <div className="col-12 col-md-12 col-sm-12">
-            <nav className="navbar navbar-expand navbar-expand-sm navbar-expand-md navbar-light">
-              <div className="collapse navbar-collapse navbar-collapse-center">
-                <ul className="navbar-nav text-center">
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Perfil</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">CV</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Proyectos</a>
-                  </li>
-                </ul>
+      <div className="container">
+        <div className="col-container mt-1">
+          <div className="row">
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4">
+              <div className="col-container-item">
+                <a className="col-container-text" href="#">
+                  Perfil
+                </a>
               </div>
-            </nav>
-            <hr/>
+            </div>
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4">  
+              <div className="col-container-item">
+                <a className="col-container-text" href="#">
+                  CV
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4">  
+              <div className="col-container-item">
+                <a className="col-container-text" href="#">
+                  Trabajos
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

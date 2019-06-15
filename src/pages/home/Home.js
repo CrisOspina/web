@@ -3,11 +3,15 @@ import React from 'react';
 
 //componentes
 import Layout from '../../components/layout/Layout';
+import Descripcion from '../../components/Descripcion/Descripcion';
 
 class Home extends React.Component {
   render(){
     return(
-      <Layout titulo = "Home" />
+      <React.Fragment>
+        <Layout titulo = "Home" />
+        <Descripcion />
+      </React.Fragment>
     )
   }
 }

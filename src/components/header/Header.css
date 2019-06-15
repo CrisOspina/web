@@ -1,10 +1,15 @@
 header {
   color: #fff;
   background: #303952;
-  padding: 9px;
+  padding: 1px;
   text-align: center;
   font-family: 'Megrim', cursive;
   text-transform: uppercase;
+}
+
+.col-cont {
+  background: #303952;
+  width: 100%;
 }
 
 header a {
@@ -20,36 +25,33 @@ a:hover {
   margin-top: 0.2em;
 }
 
-.navbar-collapse-center {
-  justify-content: center;
+.col-container {
+  text-align: center;
 }
 
-.nav-item {
+.col-container-item {
   box-shadow: 0px 11px 13px -5px rgba(0,0,0,0.05);
   font-family: 'Aleo', serif;
 }
 
-.nav-link {
+.col-container-text {
   transform: rotateZ(0deg);
   transform: scale(1.1);
   margin: 0 4em;
   transition:.2s all; 
 }
 
-.navbar-nav:hover .nav-link{
+.col-container:hover .col-container-item{
   filter:blur(1.3px);
   opacity:.5;
   transform: scale(.98);
 }
 
-.navbar-nav:hover .nav-link:hover{
+.col-container:hover .col-container-item:hover{
   transform:scale(1.5);
   filter:blur(0px);
   opacity:1;
 }
-
-
-
 
 
 
