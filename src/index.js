@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from '../src/pages/home/Home';
+import Routes from './routes/Routes';
 import 'bootstrap/dist/css/bootstrap.css';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Home />, 
+ReactDOM.render(<Routes />, 
   document.getElementById('root'));
 
 serviceWorker.unregister();

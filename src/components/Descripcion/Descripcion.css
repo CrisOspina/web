@@ -1,16 +1,30 @@
-.card-img {
-  box-shadow: -4px 2px 14px 13px rgba(0,0,0,0.26);
+.container-fluid {
+  background-color: #242424;
+  margin-top: 0;
 }
 
-.card {
-  border: none;
+
+/* boton */
+.aws-btn {
+  --button-default-border-radius: 6px !important;
+  --button-raise-level: 5px !important;
+  --button-hover-pressure: 2 !important;
+  --transform-speed: 0.185s !important;
+  --button-secondary-color: #fafafa !important;
+  --button-secondary-color-dark: #67cbc3;
+  --button-secondary-color-light: #349890 !important;
+  --button-secondary-color-hover: #ecf9f8;
+  --button-secondary-border: 1px solid #b3e5e1 !important;
+  }
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-cont-img {
-  width:100%;
-}
-
-.card-text-p {
+.p {
   animation-duration: 2s;
   animation-name: slidein;
 }
@@ -35,24 +49,11 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  animation-duration: 2s;
-  animation-name: slidein;
 }
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 h1,p.deepshadow {
   color: #e0dfdc;
-  /* background-color: #333; */
   opacity:1;
   letter-spacing: 0.1em;
   text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
@@ -81,7 +82,6 @@ h2 {
 
 h2.deepshadow {
   color: #e0dfdc;
-  /* background-color: #333; */
   opacity:1;
   letter-spacing: 0.1em;
   text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);

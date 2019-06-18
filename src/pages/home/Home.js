@@ -5,12 +5,20 @@ import React from 'react';
 import Layout from '../../components/layout/Layout';
 import Descripcion from '../../components/Descripcion/Descripcion';
 
+
 class Home extends React.Component {
   render(){
     return(
       <React.Fragment>
-        <Layout titulo = "Home" />
-        <Descripcion />
+        
+        <Layout />
+
+        <Descripcion 
+          saludo      = "Hello,"
+          name        = "my name is Cristian Ospina."
+          descripcion = "I am a software developer."
+          nameButton  = "Portfolio"
+        />
       </React.Fragment>
     )
   }
