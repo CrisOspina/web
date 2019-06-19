@@ -4,11 +4,15 @@ import './Descripcion.css';
 import Foto from '../img/img1.jpg';
 import 'react-awesome-button/dist/themes/theme-blue.css';
 import { AwesomeButton } from 'react-awesome-button';
+import { Link } from 'react-router-dom';
 
 const Descripcion = (props) => {
-  const { saludo, name, descripcion, nameButton } = props
+  const { saludo, name, descripcion, nameButton, toLink } = props
   return ( 
     <React.Fragment>
+      <div className="cont-end">
+
+      
       <div className="container-fluid pb-4">
         <div className="row-fluid">
           <div className="col-12">
@@ -26,13 +30,16 @@ const Descripcion = (props) => {
             <img className="card-img" src={Foto} alt="Card image" />
               <div className="card-img-overlay">
                 <h5 className="card-title">
-                  <AwesomeButton type="secondary" size="large" className="aws-btn" >
-                    {nameButton}
-                  </AwesomeButton>
+                  <Link to = {toLink}>
+                    <AwesomeButton type="secondary" size="large" className="aws-btn" >
+                      {nameButton}
+                    </AwesomeButton>
+                  </Link>  
                 </h5>
               </div>
           </div>
         </div>
+      </div>
       </div>
     </React.Fragment>
    );

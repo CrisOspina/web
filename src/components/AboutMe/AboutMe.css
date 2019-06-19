@@ -3,6 +3,10 @@
   margin-top: 0;
 }
 
+.cont-end {
+  height: -webkit-fill-available;
+}
+
 .aws-btn {
   margin: 2px;
 }

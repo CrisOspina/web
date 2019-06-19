@@ -6,13 +6,11 @@ const Layout = (props) => {
   const { children } = props
     return (
       <React.Fragment>
-          {/* fondo */}
-          <Header titulo = "Home"/>
+          <Header/>
 
           { children }
 
           <Footer />
-      
       </React.Fragment>
     );
 }

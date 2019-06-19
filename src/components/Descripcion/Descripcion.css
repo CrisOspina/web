@@ -3,6 +3,10 @@
   margin-top: 0;
 }
 
+.cont-end {
+  height: -webkit-fill-available;
+}
+
 
 /* boton */
 .aws-btn {

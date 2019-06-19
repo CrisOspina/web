@@ -3,18 +3,17 @@ import React from 'react';
 import '../header/Header.css';
 import { Link } from 'react-router-dom';
 
-const Header = (props) => {
-  const { titulo } = props
+const Header = () => {
   return ( 
     <React.Fragment>
-      <div className="container-fluid" style={{ backgroundColor: "#242424" }}>
+      <div className="container-fluid">
 
         {/* home */}
         <div className="row-fluid">
           <div className="col-cont col-12">
             <header>
               <Link to="/">
-                <p>{titulo}</p>
+                <p>Home</p>
               </Link>
             </header>
           </div>

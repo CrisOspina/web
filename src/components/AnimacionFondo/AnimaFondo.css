@@ -1,7 +1,7 @@
 .bg-bubbles li {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.15);
-  bottom: -160px;
+  bottom: 20px;
   -webkit-animation: square 15s infinite;
   animation: square 15s infinite;
   transition-timing-function: linear;
