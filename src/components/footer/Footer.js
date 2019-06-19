@@ -1,6 +1,7 @@
 import React from 'react';
 import '../footer/Footer.css';
 import ButtonSocial from '../Button/ButtonSocial';
+// import AnimacionReact from '../AnimacionReact/AnimacionReact';
 
 const Footer = (props) => {
   return ( 
@@ -25,6 +26,8 @@ const Footer = (props) => {
             size = "icon"
             href = "https://www.linkedin.com/in/cristian-ospina-38814a124/"
            />
+
+           {/* <AnimacionReact /> */}
          </div>
        </div>
      </div>

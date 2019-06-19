@@ -2,6 +2,7 @@
 import React from 'react';
 import '../header/Header.css';
 import { Link } from 'react-router-dom';
+import BurgerMenu from '../BurgerMenu/index';
 
 const Header = () => {
   return ( 
@@ -18,6 +19,9 @@ const Header = () => {
             </header>
           </div>
         </div>
+
+        {/* menu burger */}
+        <BurgerMenu />
       
 
         {/* Navegación */}
@@ -40,12 +44,6 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div>
-        
-        {/* Animación */}
-        <div className="Project2">
-          <img src="https://philna.sh/assets/posts/react-738ca5dd60ecf11214419e9d6c847d1e2e4ad88c3f147e12d8adfd25b76e6e66.gif" alt="gif" className="imgMasked2" />
-          <div className="Project-hail2"></div>
         </div>
       </div>
     </React.Fragment>
