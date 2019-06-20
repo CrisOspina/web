@@ -142,5 +142,13 @@
     "tituloDescripcion": "Portfolio",
     "descripcion": "Portfolio - ReactJS",
     "toLink": "https://github.com/CrisOspina/portafolio"
+  },
+  {
+    "id": 19,
+    "titleImg": "GitHub - App JS-OOP",
+    "img": "https://user-images.githubusercontent.com/38017835/59874242-69590d80-9363-11e9-9e56-8d290d43241a.png",
+    "tituloDescripcion": "JS-OOP",
+    "descripcion": "Task JS-OOP",
+    "toLink": "https://github.com/CrisOspina/js-oop"
   }
 ]
