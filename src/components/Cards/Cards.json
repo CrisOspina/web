@@ -150,5 +150,13 @@
     "tituloDescripcion": "JS-OOP",
     "descripcion": "Task JS-OOP",
     "toLink": "https://github.com/CrisOspina/js-oop"
+  },
+  {
+    "id":20,
+    "titleImg": "App-redux",
+    "img": "![3](https://user-images.githubusercontent.com/38017835/61197493-d75ecf00-a69a-11e9-9db3-caeaea6b9d07.PNG)",
+    "tituloDescripcion": "Redux",
+    "descripcion": "React-Redux",
+    "toLink": "https://blog-redux.now.sh"
   }
 ]
