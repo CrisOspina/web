@@ -1,22 +1,22 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+import Card from '@material-ui/core/Card'
+import CardActionArea from '@material-ui/core/CardActionArea'
+import CardContent from '@material-ui/core/CardContent'
+import CardMedia from '@material-ui/core/CardMedia'
+import Typography from '@material-ui/core/Typography'
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: 345,
+    maxWidth: 345
   },
   media: {
-    height: 140,
-  },
-});
+    height: 140
+  }
+})
 
-export default function CardOne(props) {
-  const classes = useStyles();
+export default function CardOne (props) {
+  const classes = useStyles()
   const { img, titleImg, tituloDescripcion, descripcion, toLink } = props
 
   return (
@@ -30,10 +30,10 @@ export default function CardOne(props) {
               title={titleImg}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography gutterBottom variant='h5' component='h2'>
                 { tituloDescripcion }
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography variant='body2' color='textSecondary' component='p'>
                 { descripcion }
               </Typography>
             </CardContent>
@@ -41,5 +41,5 @@ export default function CardOne(props) {
         </Card>
       </a>
     </React.Fragment>
-  );
+  )
 }

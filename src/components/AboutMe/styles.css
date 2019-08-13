@@ -1,0 +1,26 @@
+.container-fluid {
+  background-color: #242424;
+  margin-top: 0;
+}
+
+.cont-end {
+  height: -webkit-fill-available;
+}
+
+.aws-btn {
+  margin: 2px;
+}
+
+.cont-text {
+  height: 100%;
+  color: wheat;
+  padding: 2em;
+}
+
+.h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Aleo', serif;
+}
