@@ -23,7 +23,11 @@
     "now-build": "react-scripts build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "parser": "babel-eslint",
+    "extends": [
+      "./node_modules/standard/eslintrc.json",
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
@@ -38,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "@storybook/react": "^5.1.8"
+    "@storybook/react": "^5.1.8",
+    "standard": "^13.1.0"
   }
 }
