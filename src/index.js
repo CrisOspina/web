@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Routes } from './routes'
+import { App } from './App'
 import 'bootstrap/dist/css/bootstrap.css'
 
-ReactDOM.render(<Routes />,
+ReactDOM.render(<App />,
   document.getElementById('root'))
