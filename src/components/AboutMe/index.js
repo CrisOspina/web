@@ -2,37 +2,39 @@ import React, { Fragment } from 'react'
 import './styles.css'
 import { Button } from '../Button'
 import data from '../Skills/index.json'
-import { AnimaFondo } from '../AnimacionFondo'
+import { AwesomeButton } from 'react-awesome-button'
+import { Link } from 'react-router-dom'
 
 export const AboutMe = (props) => {
   const datos = data
-  const { descripcion, profesion, skills } = props
+  const { descripcion, profesion, skills, toLink, nameButton } = props
+
+  const dataSkill = () => (
+    datos.map((data) => {
+      return <Button className='aws-btn' type={data.type}
+        size={data.size} name={data.name} key={data.id}
+      />
+    })
+  )
 
   return (
     <Fragment>
-      <div className='cont-end'>
-        <div className='container-fluid'>
-          <div className='row-fluid'>
-            <div className='col-sm-12 offset-lg-4 col-lg-4 text-center'>
-              <div className='cont-text'>
-                <p>{ descripcion }</p>
-                <p>{ profesion }</p>
-                <p>{ skills }</p>
-              </div>
+      <div className='container container-main'>
+        <div className='row pb-5'>
+          <div className='col-sm-12 col-lg-6 border-center'>
+            <div className='cont-text'>
+              <p>{ descripcion }</p>
+              <p>{ profesion }</p>
+              <Link to={toLink}>
+                <AwesomeButton type='secondary' size='large' className='aws-btn' >
+                  {nameButton}
+                </AwesomeButton>
+              </Link>
             </div>
           </div>
-
-          <div className='row-fluid pb-4' >
-            <div className='offset-sm-1 col-sm-10 text-center'>
-              {/* animacion de fondo */}
-              <AnimaFondo />
-              { datos.map((data) => {
-                return <Button className='aws-btn' type={data.type}
-                  size={data.size} name={data.name} key={data.id}
-                />
-              })
-              }
-            </div>
+          <div className='col-sm-12 col-lg-6 text-center'>
+            <p className='skill'>{ skills }</p>
+            {dataSkill()}
           </div>
         </div>
       </div>

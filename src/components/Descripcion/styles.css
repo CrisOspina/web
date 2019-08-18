@@ -1,12 +1,13 @@
-.container-fluid {
-  background-color: #242424;
-  margin-top: 0;
+.row-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+  padding-bottom: 2em;
 }
 
-.cont-end {
-  height: -webkit-fill-available;
+.color-word {
+  box-shadow: inset 2px 17px 81px 13px rgba(0,0,0,0.1);
 }
-
 
 /* boton */
 .aws-btn {
@@ -21,31 +22,6 @@
   --button-secondary-border: 1px solid #b3e5e1 !important;
   }
 
-.card-img-overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.p {
-  animation-duration: 2s;
-  animation-name: slidein;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-
-
 h1 {
   font-family: 'Megrim', cursive, "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-size: 32px;
@@ -57,6 +33,7 @@ h1 {
 
 
 h1,p.deepshadow {
+  text-align: center;
   color: #e0dfdc;
   opacity:1;
   letter-spacing: 0.1em;

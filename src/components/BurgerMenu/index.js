@@ -13,7 +13,9 @@ const contentStyle = {
   background: 'rgba(255,255,255,0)',
   width: '80%',
   border: 'none',
-  color: '#fff'
+  color: '#fff',
+  borderLeft: '1px solid #444',
+  borderRight: '1px solid #444'
 }
 
 const BurgerMenu = () => {
@@ -21,7 +23,7 @@ const BurgerMenu = () => {
     <div style={styles}>
       <Popup
         modal
-        overlayStyle={{ background: '#242424' }}
+        overlayStyle={{ backgroundImage: "url('https://image.freepik.com/vector-gratis/resumen-fondo-hexagonal_88211-257.jpg')" }}
         contentStyle={contentStyle}
         closeOnDocumentClick={false}
         trigger={open => <BurgerIcon open={open} />}

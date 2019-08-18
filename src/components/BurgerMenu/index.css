@@ -1,4 +1,17 @@
-.burger-menu,
+.burger-menu {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  z-index: 9999;
+  background: #24242490;
+}
+
+.burger-menu:hover {
+  box-shadow: -1px 2px 14px 21px rgba(0,0,0,0.75);
+}
+
 .burger-menu.open {
   display: inline-block;
   cursor: pointer;

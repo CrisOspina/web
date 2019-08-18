@@ -1,12 +1,3 @@
-.container-fluid {
-  background-color: #242424;
-  margin-top: 0;
-}
-
-.cont-end {
-  height: -webkit-fill-available;
-}
-
 .aws-btn {
   margin: 2px;
 }
@@ -17,8 +8,13 @@
   padding: 2em;
 }
 
-.h3 {
-  font-family: 'Raleway', sans-serif;
+.border-center {
+  border-right: 1px solid #444;
+}
+
+.skill {
+  color: wheat;
+  padding: 2em;
 }
 
 p {

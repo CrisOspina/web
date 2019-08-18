@@ -2,10 +2,6 @@
   margin-top: 10px;
 }
 
-.cont-cant {
-  margin-top: 2em;
-}
-
 .col-card:hover {
   -webkit-animation: swing 1s ease;
   animation: swing 1s ease;

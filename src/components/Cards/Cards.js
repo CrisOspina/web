@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import './styles.css'
 import Card from '../Cards/Card'
 import data from '../Cards/indexUpdate.json'
-import './styles.css'
 
 const Cards = (props) => {
   const datos = data.reverse()
 
   return (
-    <React.Fragment>
-      <div className='container cont-cant'>
+    <Fragment>
+      <div className='container container-main'>
         <div className='row pb-4'>
           { datos.map((data) => {
             return <div className='col-12 col-sm-6 col-md-6 col-lg-4 col-card' key={data.id}>
@@ -24,7 +24,7 @@ const Cards = (props) => {
           }
         </div>
       </div>
-    </React.Fragment>
+    </Fragment>
   )
 }
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import CardActionArea from '@material-ui/core/CardActionArea'
@@ -20,7 +20,7 @@ export default function CardOne (props) {
   const { img, titleImg, tituloDescripcion, descripcion, toLink } = props
 
   return (
-    <React.Fragment>
+    <Fragment>
       <a href={toLink}>
         <Card className={classes.card}>
           <CardActionArea>
@@ -40,6 +40,6 @@ export default function CardOne (props) {
           </CardActionArea>
         </Card>
       </a>
-    </React.Fragment>
+    </Fragment>
   )
 }

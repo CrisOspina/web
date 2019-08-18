@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react'
 import './styles.css'
 import { ButtonSocial } from '../ButtonSocial'
-// import AnimacionReact from '../AnimacionReact/AnimacionReact';
 
-export const Footer = (props) => {
+export const Footer = () => {
   return (
     <Fragment>
       <div className='container-fluid'>
@@ -26,8 +25,6 @@ export const Footer = (props) => {
               size='icon'
               href='https://www.linkedin.com/in/cristian-ospina-38814a124/'
             />
-
-            {/* <AnimacionReact /> */}
           </div>
         </div>
       </div>
