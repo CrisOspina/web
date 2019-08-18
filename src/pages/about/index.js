@@ -9,6 +9,8 @@ export const About = () => {
         descripcion={DESCRIPCION}
         profesion={PROFESION}
         skills={SKILLS}
+        nameButton='Portfolio'
+        toLink='/portfolio'
       />
     </Fragment>
   )
