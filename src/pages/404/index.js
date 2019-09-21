@@ -1,10 +1,11 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { NotFound } from '../../components/404'
+import { LayoutHelmet } from '../../components/Helmet/LayoutHelmet'
 
 export const NotFound404 = () => {
   return (
-    <Fragment>
+    <LayoutHelmet title='404' subtitle='Página Not Found'>
       <NotFound />
-    </Fragment>
+    </LayoutHelmet>
   )
 }
