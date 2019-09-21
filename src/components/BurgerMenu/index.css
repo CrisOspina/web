@@ -8,9 +8,9 @@
   background: #24242490;
 }
 
-.burger-menu:hover {
+/* .burger-menu:hover {
   box-shadow: -1px 2px 14px 21px rgba(0,0,0,0.75);
-}
+} */
 
 .burger-menu.open {
   display: inline-block;
