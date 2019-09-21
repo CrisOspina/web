@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "name": "Web",
     "type": "secondary",
@@ -121,7 +120,7 @@
   },
   {
     "id": 21,
-    "name": "Android – JAVA",
+    "name": "Android",
     "type": "secondary",
     "size": "large"
   },
@@ -152,6 +151,36 @@
   {
     "id": 26,
     "name": "SAP/SAPUI5",
+    "type": "secondary",
+    "size": "small"
+  },
+  {
+    "id": 27,
+    "name": "Angular",
+    "type": "secondary",
+    "size": "small"
+  },
+  {
+    "id": 28,
+    "name": "Firebase",
+    "type": "secondary",
+    "size": "small"
+  },
+  {
+    "id": 29,
+    "name": "Java",
+    "type": "secondary",
+    "size": "small"
+  },
+  {
+    "id": 30,
+    "name": "PWA",
+    "type": "secondary",
+    "size": "small"
+  },
+  {
+    "id": 31,
+    "name": "Materialize",
     "type": "secondary",
     "size": "small"
   }
