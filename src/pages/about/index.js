@@ -1,10 +1,14 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { AboutMe } from '../../components/AboutMe'
 import { DESCRIPCION, PROFESION, SKILLS } from './Me'
+import { LayoutHelmet } from '../../components/Helmet/LayoutHelmet'
 
 export const About = () => {
   return (
-    <Fragment>
+    <LayoutHelmet
+      title='About'
+      subtitle='Descripcion corta de mi perfil profesional en el mundo del desarrollo de software'
+    >
       <AboutMe
         descripcion={DESCRIPCION}
         profesion={PROFESION}
@@ -12,6 +16,6 @@ export const About = () => {
         nameButton='Portfolio'
         toLink='/portfolio'
       />
-    </Fragment>
+    </LayoutHelmet>
   )
 }
