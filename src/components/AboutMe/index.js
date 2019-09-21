@@ -1,43 +1,56 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 import './styles.css'
-import { Button } from '../Button'
+
 import data from '../Skills/index.json'
 import { AwesomeButton } from 'react-awesome-button'
-import { Link } from 'react-router-dom'
 
-export const AboutMe = (props) => {
+import { Button } from '../Button'
+import { ContenedorMain } from '../ContenedorMain/'
+import IconoAtomo from '../Iconos/Atomo'
+
+export const AboutMe = props => {
   const datos = data
   const { descripcion, profesion, skills, toLink, nameButton } = props
 
-  const dataSkill = () => (
-    datos.map((data) => {
-      return <Button className='aws-btn' type={data.type}
-        size={data.size} name={data.name} key={data.id}
-      />
+  const dataSkill = () =>
+    datos.map(data => {
+      return (
+        <Button
+          className='aws-btn'
+          type={data.type}
+          size={data.size}
+          name={data.name}
+          key={data.id}
+        />
+      )
     })
-  )
 
   return (
     <Fragment>
-      <div className='container container-main'>
+      <ContenedorMain>
         <div className='row pb-5'>
-          <div className='col-sm-12 col-lg-6 border-center'>
-            <div className='cont-text'>
-              <p>{ descripcion }</p>
-              <p>{ profesion }</p>
+          <div className='col-sm-12 col-lg-6 border-center hvr-underline-reveal'>
+            <div className='cont-text animated fadeIn'>
+              <p>{descripcion}</p>
+              <p>{profesion}</p>
               <Link to={toLink}>
-                <AwesomeButton type='secondary' size='large' className='aws-btn' >
-                  {nameButton}
+                <AwesomeButton
+                  type='secondary'
+                  size='large'
+                  className='aws-btn'
+                >
+                  {nameButton} <IconoAtomo />
                 </AwesomeButton>
               </Link>
             </div>
           </div>
-          <div className='col-sm-12 col-lg-6 text-center'>
-            <p className='skill'>{ skills }</p>
+          <div className='col-sm-12 col-lg-6 text-center animated fadeIn hvr-grow-shadow'>
+            <p className='skill'>{skills}</p>
             {dataSkill()}
           </div>
         </div>
-      </div>
+      </ContenedorMain>
     </Fragment>
   )
 }
