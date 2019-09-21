@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "titleImg": "GitHub - Responsive Design",
     "img": "https://user-images.githubusercontent.com/38017835/59726887-077c9480-91f9-11e9-904d-5aee5011df4e.PNG",
@@ -138,7 +137,7 @@
   {
     "id": 18,
     "titleImg": "GitHub - Portfolio",
-    "img": "https://user-images.githubusercontent.com/38017835/59730317-8a0c5080-9207-11e9-9fc5-671192aeaaca.PNG",
+    "img": "https://user-images.githubusercontent.com/38017835/65380241-81129b80-dc9c-11e9-820e-fa3542743448.PNG",
     "tituloDescripcion": "Portfolio",
     "descripcion": "Portfolio - ReactJS",
     "toLink": "https://github.com/CrisOspina/portafolio"
@@ -152,7 +151,7 @@
     "toLink": "https://github.com/CrisOspina/js-oop"
   },
   {
-    "id":20,
+    "id": 20,
     "titleImg": "App-redux",
     "img": "https://user-images.githubusercontent.com/38017835/61197493-d75ecf00-a69a-11e9-9db3-caeaea6b9d07.PNG",
     "tituloDescripcion": "Redux",
@@ -160,7 +159,7 @@
     "toLink": "https://github.com/CrisOspina/redux-react"
   },
   {
-    "id":21,
+    "id": 21,
     "titleImg": "crud-android",
     "img": "https://user-images.githubusercontent.com/38017835/62671757-b158e180-b95d-11e9-8454-2fc167cd57cf.PNG",
     "tituloDescripcion": "Crud",
@@ -168,7 +167,7 @@
     "toLink": "https://github.com/CrisOspina/crud-android-firebase"
   },
   {
-    "id":22,
+    "id": 22,
     "titleImg": "Petgram",
     "img": "http://i.picasion.com/pic89/d1bdf833febef75b8795996f164ea4ff.gif",
     "tituloDescripcion": "Petgram",
@@ -182,5 +181,37 @@
     "tituloDescripcion": "E-commerce",
     "descripcion": "E-commerce - gatsby",
     "toLink": "https://github.com/CrisOspina/app-web-gatsby"
+  },
+  {
+    "id": 24,
+    "titleImg": "PWA",
+    "img": "https://user-images.githubusercontent.com/38017835/64213488-bfbdee80-ce72-11e9-9481-37a27136fa9a.PNG",
+    "tituloDescripcion": "Recetas PWA",
+    "descripcion": "App de recetas - convertida en PWA",
+    "toLink": "https://github.com/CrisOspina/pwa-react-platzi"
+  },
+  {
+    "id": 25,
+    "titleImg": "Bank-Android",
+    "img": "http://i.picasion.com/pic89/d0a31cbd902c6dfc01cd36444a87daa8.gif",
+    "tituloDescripcion": "Bank Android",
+    "descripcion": "App Bank Android and php",
+    "toLink": "https://github.com/CrisOspina/banco-android"
+  },
+  {
+    "id": 26,
+    "titleImg": "Institución con JAVA",
+    "img": "http://i.picasion.com/pic89/2ec03bb7df0d27a05c8f62fe09896d66.gif",
+    "tituloDescripcion": "JAVA",
+    "descripcion": "Institución utilizando Java-JSP",
+    "toLink": "https://github.com/CrisOspina/java-jsp-solution-training/tree/master/proyecto-final"
+  },
+  {
+    "id": 27,
+    "titleImg": "Learning Angular",
+    "img": "http://i.picasion.com/pic89/8705f55c6ec0430636489a31693b3d31.gif",
+    "tituloDescripcion": "Angular",
+    "descripcion": "Hello world",
+    "toLink": "https://github.com/CrisOspina/learning-angular/tree/master/1.2-hello-world"
   }
 ]
