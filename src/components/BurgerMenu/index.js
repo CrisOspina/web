@@ -9,6 +9,10 @@ const styles = {
   textAlign: 'center',
   marginTop: '40px'
 }
+
+const backgroundDark = {
+  backgroundColor: '#212121'
+}
 const contentStyle = {
   background: 'rgba(255,255,255,0)',
   width: '80%',
@@ -23,7 +27,7 @@ const BurgerMenu = () => {
     <div style={styles}>
       <Popup
         modal
-        overlayStyle={{ backgroundImage: "url('https://image.freepik.com/vector-gratis/resumen-fondo-hexagonal_88211-257.jpg')" }}
+        overlayStyle={backgroundDark}
         contentStyle={contentStyle}
         closeOnDocumentClick={false}
         trigger={open => <BurgerIcon open={open} />}
