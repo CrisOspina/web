@@ -33,7 +33,9 @@ export const AboutMe = props => {
           <div className='col-sm-12 col-lg-6 border-center hvr-underline-reveal'>
             <div className='cont-text animated fadeIn'>
               <p>{descripcion}</p>
+              <br />
               <p>{profesion}</p>
+              <br />
               <Link to={toLink}>
                 <AwesomeButton
                   type='secondary'
