@@ -23,7 +23,7 @@ export const ContenedorMain = props => {
       {/* Contenido de páginas */}
       {children}
 
-      <div className='row'>
+      <div className='row hvr-float-shadow'>
         <div className='col-md-1 d-none d-sm-none d-md-block'>
           <br />
           <br />
