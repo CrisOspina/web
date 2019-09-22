@@ -128,8 +128,6 @@ export const GlobalStyle = createGlobalStyle`
 
     /* Float Shadow */
   .hvr-float-shadow {
-    display: inline-block;
-    vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
