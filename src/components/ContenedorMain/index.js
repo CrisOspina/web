@@ -35,6 +35,8 @@ export const ContenedorMain = props => {
           <IconoMoon />
         </div>
       </div>
+      <br />
+      <br />
     </div>
   )
 }
