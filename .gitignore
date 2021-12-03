@@ -1,5 +1,9 @@
 node_modules
 
-/.cache
-/build
-/public/build
+.cache
+.vercel
+.output
+
+build
+public/build
+api/build
