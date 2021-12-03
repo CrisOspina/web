@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "www-personal",
-  "description": "www",
+  "name": "www",
+  "description": "Site personal",
   "license": "MIT",
   "scripts": {
     "build": "remix build",
