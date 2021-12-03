@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/fonts/merriweather/merriweather-regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --color-black: #fff;
+  --color-foreground: hsl(0, 0%, 7%);
+  --color-background: hsl(0, 0%, 0%);
+  --color-header: rgba(0, 0, 0, 0.14);
+  --color-primary: rgb(204, 228, 130);
+  --color-secondary: #ccc;
+  --color-tertiary: #948b8b;
+  --color-links: hsl(0, 0%, 100%);
+  --color-links-hover: hsl(0, 0%, 65%);
+  --color-border: hsl(0, 0%, 65%);
+  --header-border-bottom: inset 0 -1px 0 0 hsla(0, 0%, 100%, 0.1);
+  --bg-color: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(2, 0, 36, 1) 23%,
+    rgba(1, 0, 11, 1) 71%,
+    rgba(0, 0, 0, 0.9637278495382529) 85%
+  );
+  --font-body-primary: 'Merriweather', -apple-system, 'Segoe UI', Helvetica Neue,
+    Helvetica, Roboto, Arial, sans-serif, system-ui, 'Apple Color Emoji',
+    'Segoe UI Emoji';
+  --font-body-secondary: 'Lato', -apple-system, 'Segoe UI', Helvetica Neue,
+    Helvetica, Roboto, Arial, sans-serif, system-ui, 'Apple Color Emoji',
+    'Segoe UI Emoji';
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:-moz-focusring {
+  outline: auto;
+}
+
+:focus {
+  outline: none;
+  outline-offset: 0;
+}
+
+iframe {
+  user-select: none;
+  pointer-events: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+body {
+  line-height: 1.5;
+  background: var(--bg-color);
+}
+
+a {
+  color: var(--color-links);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-links-hover);
+  text-decoration: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  background-color: var(--color-tertiary);
+  margin-top: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-body-primary);
+}
+
+p,
+small,
+span,
+li,
+button {
+  font-family: var(--font-body-secondary);
+}

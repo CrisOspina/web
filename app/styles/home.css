@@ -1,0 +1,21 @@
+.container__button {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 0;
+}
+
+.button {
+  border-radius: 9px;
+  border-color: white;
+  color: wheat;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 1rem 3rem;
+  backdrop-filter: saturate(180%) blur(5px);
+  font-size: 1.4rem;
+}
+
+.button:hover {
+  border-color: yellow;
+  color: yellow;
+}
