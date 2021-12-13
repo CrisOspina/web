@@ -1,8 +1,8 @@
 # cristianospina.com
 
-My personal website built with [RemixJS](https://remix.run/)
-
 [![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.com?utm_source=crisospina523)
+
+My personal website built with [RemixJS](https://remix.run/)
 
 ## Development
 
