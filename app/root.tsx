@@ -1,5 +1,5 @@
-import {Outlet, useCatch} from 'remix'
-import type {LinksFunction} from 'remix'
+import {Outlet, useCatch} from '@remix-run/react'
+import type {LinksFunction} from '@remix-run/node'
 
 import Document from './ui/Document'
 import Layout from './ui/components/Layout'

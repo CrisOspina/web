@@ -15,7 +15,7 @@ const container = {
   },
 }
 
-const Layout: React.FC = ({children}: React.PropsWithChildren<{}>) => {
+const Layout = ({children}: {children: React.ReactNode}) => {
   return (
     <motion.div
       className='app'

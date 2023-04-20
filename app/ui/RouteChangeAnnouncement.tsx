@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {useLocation} from 'remix'
+import {useLocation} from '@remix-run/react'
 
 /**
  * Provides an alert for screen reader users when the route changes.
