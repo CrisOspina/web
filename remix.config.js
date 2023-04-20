@@ -3,5 +3,6 @@
  */
 
 module.exports = {
-  serverBuildDirectory: 'api/_build',
+  ignoredRouteFiles: ['**/.*'],
+  // serverBuildDirectory: 'api/_build',
 }
