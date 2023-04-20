@@ -1,6 +1,7 @@
 import * as React from 'react'
 import {motion} from 'framer-motion'
-import {MetaFunction} from 'remix'
+import {MetaFunction} from '@remix-run/node'
+
 import {projects} from '../info'
 
 export const meta: MetaFunction = () => {

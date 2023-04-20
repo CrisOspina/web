@@ -1,4 +1,4 @@
-# cristianospina.com
+# cristianospina.dev
 
 [![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.com?utm_source=crisospina523)
 

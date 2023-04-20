@@ -1,5 +1,5 @@
+import {NavLink} from '@remix-run/react'
 import {motion} from 'framer-motion'
-import {NavLink} from 'remix'
 
 const container = {
   hidden: {opacity: 0},

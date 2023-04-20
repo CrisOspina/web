@@ -1,5 +1,7 @@
-import {LoaderFunction, MetaFunction, useLoaderData} from 'remix'
+import {useLoaderData} from '@remix-run/react'
+import {LoaderFunction, MetaFunction} from '@remix-run/node'
 import {motion} from 'framer-motion'
+
 import ToolImages from '~/ui/components/ToolImages'
 import {tools} from '~/info'
 
