@@ -13,6 +13,7 @@ const Blog: React.FC = () => {
     <>
       <h1 className='text__color-primary text__lg'>Coming soon 🔨</h1>
       <iframe
+        className='rounded__full'
         src='https://giphy.com/embed/xZsLh7B3KMMyUptD9D'
         width='480'
         height='270'

@@ -187,8 +187,14 @@
   align-items: center;
 }
 
+.space__start {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
 .rounded__full {
-  border-radius: 9999px;
+  border-radius: 40px;
 }
 
 .card {
@@ -197,9 +203,7 @@
   border-radius: 40px;
   cursor: pointer;
   background-color: var(--bg-color);
-  box-shadow: 5px 5px 30px 7px rgb(37 37 37 / 25%),
-    -5px -5px 30px 7px rgb(93 93 93 / 22%);
-  background-image: url(/github.png);
+  border: 1px solid var(--color-tertiary);
   background-repeat: no-repeat;
 }
 
@@ -229,8 +233,8 @@
 
 .button {
   border-radius: 9px;
-  border-color: var(--color-secondary);
-  color: var(--color-secondary);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
   cursor: pointer;
   background-color: transparent;
   padding: 1rem 3rem;
@@ -239,6 +243,6 @@
 }
 
 .button:hover {
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
 }
