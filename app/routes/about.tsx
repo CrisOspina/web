@@ -41,6 +41,7 @@ const About: React.FC = () => {
         <div className='space__center'>
           <motion.img
             className='rounded__full'
+            style={{width: '22rem', height: '22rem'}}
             animate={{y: 20}}
             transition={{type: 'spring', stiffness: 100}}
             src={avatar ?? ''}

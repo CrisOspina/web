@@ -15,7 +15,7 @@ export const meta: MetaFunction = () => {
 
 const Index: React.FC = () => {
   return (
-    <section className='container'>
+    <section className='container' style={{textAlign: 'center'}}>
       <motion.h2
         className='text__xl text__color-secondary m-0'
         initial='hidden'
@@ -33,16 +33,14 @@ const Index: React.FC = () => {
       </motion.h1>
 
       <motion.p className='text__base text__color-secondary' animate={{y: 5}}>
-        and a passionate
-        <span className='text__color-primary'> Javascript developer</span> from
-        Colombia who loves to solve problems through technology and to build and
-        deliver quality products
+        Who loves to solve problems through technology and to build and deliver
+        quality products
       </motion.p>
 
       <div className='space__center my-3'>
         <Link to='/about'>
           <motion.button className='button' whileTap={{scale: 0.9}}>
-            ..npm run dev..
+            More about me 🚀
           </motion.button>
         </Link>
       </div>

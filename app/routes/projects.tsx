@@ -26,13 +26,13 @@ const Projects: React.FC = () => {
         Feel free to take a look at my projects 🚀
       </p>
       <article className='container__card'>
-        {projects.map((project: Project) => (
+        {projects.map((project: Project, index: number) => (
           <motion.section
             className='card'
             animate={{y: 20}}
             transition={{type: 'spring', stiffness: 100}}
             whileTap={{scale: 0.9}}
-            key={project.href}
+            key={index}
           >
             <a target='_blank' href={project.href}>
               <p className='text__color-primary text__base text__center px-1'>
@@ -46,8 +46,10 @@ const Projects: React.FC = () => {
               <hr />
 
               <div className='space__around w-full my-2 px-1'>
-                {project.tools?.map((tool: string) => (
-                  <small className='badge'>#{tool.toLowerCase()}</small>
+                {project.tools?.map((tool: string, index: number) => (
+                  <small key={index} className='badge'>
+                    <div id={tool.toLowerCase()}></div>
+                  </small>
                 ))}
               </div>
             </a>

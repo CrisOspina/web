@@ -4,12 +4,24 @@ export const tools: Image[] = [
     alt: 'javascript programming language',
   },
   {
-    src: '/git.png',
-    alt: 'git version controls',
+    src: '/ts.svg',
+    alt: 'typescript programming language',
+  },
+  {
+    src: '/nodejs.png',
+    alt: 'javascript-runtime',
+  },
+  {
+    src: '/svelte.svg',
+    alt: 'svelte',
   },
   {
     src: '/react.png',
     alt: 'react library javascript',
+  },
+  {
+    src: '/vue.png',
+    alt: 'vue library javascript',
   },
   {
     src: '/graphql.png',
@@ -20,8 +32,20 @@ export const tools: Image[] = [
     alt: 'apollo library js',
   },
   {
-    src: '/node.png',
-    alt: 'javascript-runtime',
+    src: '/tailwindcss.svg',
+    alt: 'framework css',
+  },
+  {
+    src: '/html-css.png',
+    alt: 'html and css web',
+  },
+  {
+    src: '/git.png',
+    alt: 'git version controls',
+  },
+  {
+    src: '/styled-components.png',
+    alt: 'styled components css in js',
   },
   {
     src: '/php.png',
@@ -32,20 +56,8 @@ export const tools: Image[] = [
     alt: 'go programming language',
   },
   {
-    src: '/vue.png',
-    alt: 'vue library javascript',
-  },
-  {
-    src: '/html-css.png',
-    alt: 'html and css web',
-  },
-  {
     src: '/docker.png',
     alt: 'tool docker',
-  },
-  {
-    src: '/styled-components.png',
-    alt: 'styled components css in js',
   },
 ]
 
@@ -100,7 +112,7 @@ export const projects: Project[] = [
   },
   {
     href: 'https://github.com/CrisOspina/preact-sin-webpack-sin-babel',
-    name: 'Counter 😋',
+    name: 'Counter',
     description: 'Building an app counter - learning Svelte',
     tools: ['js', 'svelte', 'rollup'],
   },
